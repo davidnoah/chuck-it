@@ -3,16 +3,20 @@
   "name": "Display None",
   "version": "1.0",
 
-  "default_locale": "en",
   "description": "An extension that allows a user to temporarily change clicked element property to display: none",
   "browser_action": {
           "default_icon": "images/icon.png",
-          "default_popup": "popup.html"
+          "default_popup": "index.html",
+          "default_title": "DisplayNone"
   },
 
   "author": "David Noah",
   "permissions": [
           "activeTab",
-          "debugger",
-        ]
+          "debugger"
+        ],
+  "background": {
+    "scripts": ["js/eventPage.js"],
+    "persistent": false
+  },
 }
