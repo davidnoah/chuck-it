@@ -6,7 +6,6 @@
   "description": "An extension that allows a user to temporarily change clicked element property to display: none",
   "browser_action": {
           "default_icon": "images/icon.png",
-          "default_popup": "index.html",
           "default_title": "DisplayNone"
   },
 
@@ -16,7 +15,6 @@
           "debugger"
         ],
   "background": {
-    "scripts": ["js/eventPage.js"],
-    "persistent": false
-  },
+    "scripts": ["js/events.js"]
+  }
 }
