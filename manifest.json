@@ -1,12 +1,12 @@
 {
   "manifest_version": 2,
-  "name": "Display None",
+  "name": "ChuckIt",
   "version": "1.0",
 
   "description": "An extension that allows a user to temporarily change clicked element property to display: none",
   "browser_action": {
           "default_icon": "images/off.png",
-          "default_title": "DisplayNone"
+          "default_title": "ChuckIt"
   },
 
   "author": "David Noah",
