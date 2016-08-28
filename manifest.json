@@ -8,13 +8,15 @@
           "default_icon": "images/off.png",
           "default_title": "ChuckIt"
   },
+  "icons": { "16": "images/off.png",
+           "48": "images/bomb48.png",
+          "128": "images/bomb128.png" },
 
   "author": "David Noah",
   "permissions": [
           "tabs",
-          "activeTab",
-          "debugger"
-        ],
+          "activeTab"
+  ],
   "background": {
     "scripts": ["js/events.js"]
   }
