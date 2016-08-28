@@ -6,6 +6,6 @@ chrome.browserAction.onClicked.addListener(function(tab) {
     chrome.tabs.executeScript(null, {file: "js/content.js"});
   } else {
     chrome.browserAction.setIcon({path: "images/off.png"});
-    chrome.tabs.executeScript(null, {path: "js/terminate.js"});
+    chrome.tabs.executeScript(null, {file: "js/terminate.js"});
   }
 });

@@ -7,22 +7,23 @@ function traverseParents(childNode, callback) {
   }
 }
 
-document.addEventListener("contextmenu", function(e) {
+var destroyTarget = function(e) {
   e.preventDefault();
   e.target.style.display = "none";
-});
+};
 
-document.addEventListener("mouseover", function(e) {
-
+var selectTarget = function(e) {
   traverseParents(e.target, function(target) {
     target.style.opacity = "1";
   });
 
   e.target.style.opacity = "0.5";
-  e.target.style.cursor = "pointer";
 
   e.target.addEventListener("mouseleave", function() {
     e.target.style.opacity = "1";
   });
+};
 
-});
+document.body.style.cursor = "pointer";
+document.addEventListener("contextmenu", destroyTarget);
+document.addEventListener("mouseover", selectTarget);
