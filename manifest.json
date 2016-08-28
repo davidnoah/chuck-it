@@ -5,12 +5,13 @@
 
   "description": "An extension that allows a user to temporarily change clicked element property to display: none",
   "browser_action": {
-          "default_icon": "images/icon.png",
+          "default_icon": "images/off.png",
           "default_title": "DisplayNone"
   },
 
   "author": "David Noah",
   "permissions": [
+          "tabs",
           "activeTab",
           "debugger"
         ],
