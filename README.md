@@ -3,6 +3,8 @@
 
 Chrome Store: https://chrome.google.com/webstore/detail/chuckit/afjlblhbiheadjealpfjjdeahfbmpkog
 
+[Video Demo](https://youtu.be/dZUDe1Mxxw4)
+
 INSTRUCTIONS:
 
 1. Once the extension is downloaded, navigate to a site that may use a modal or picture to block it's contents.
@@ -13,5 +15,4 @@ INSTRUCTIONS:
 
 ToDo:
 
-- Add video demonstration
 - Create destruction transitions
