@@ -3,7 +3,7 @@
   "name": "ChuckIt",
   "version": "0.0.0.1",
 
-  "description": "An extension that allows a user to temporarily destory any element on their current webpage",
+  "description": "An extension that allows a user to temporarily destroy any element on their active webpage",
   "browser_action": {
           "default_icon": "images/off.png",
           "default_title": "ChuckIt"
